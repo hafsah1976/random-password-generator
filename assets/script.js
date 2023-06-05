@@ -22,7 +22,7 @@ var generatedPassword="";
 function generatePassword(){
    
   //this variable will hold the value input by the user
-  var totalLength = prompt("What would be the length of the password you need?/nYour password should be at least 8 characters long and should not exceed 128 characters.")
+  var totalLength = prompt("What would be the length of the password you need? Your password should be at least 8 characters long and should not exceed 128 characters.")
   //asking user the length of password
   if (totalLength <8 || totalLength > 128 || isNaN(totalLength)){
   alert("You are required to input a valid number for password length. Please start again.");
