@@ -20,13 +20,17 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-The URL will mostly work in all the browsers. Preferred Browser is Google Chrome and the extension Chrome DevTools Extension to view the source code. GitHub is the cloud service for projects/repositories. You can simply visit the URL to view the repository in your browser: [Github Repo](https://github.com/hafsah1976/random-password-generator)
+The URL will mostly work in all the browsers. Preferred Browser is Google Chrome and the extension Chrome DevTools Extension to view the source code. GitHub is the cloud service for projects/repositories. You can simply visit the URL to view the repository in your browser: 
+
+[Github Repo](https://github.com/hafsah1976/random-password-generator)
 
 ## Usage
 
 This website can be used generate unique passwords. User would have to answer a series of prompts in order to get a unique password that would appear in the text area in the webpage. Below is a screenshot of the webpage showing a generated password:
 
 ![Overall Screenshot](./images/password-generator-screenshot-1.png)
+
+[Deployment URL](https://hafsah1976.github.io/random-password-generator/)
 
 ## Credits
 
