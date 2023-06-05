@@ -52,7 +52,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## Tests
 
-1.Testing 0 Value:
+### Testing 0 Value
 
 ![Entering 0 in placeholder](./images/testing%200%20value.png)
 
@@ -60,7 +60,7 @@ Result as Expected:-
 
 ![Output as alert message](./images/output%20for%20testing%200%20value.png)
 
-2.Testing the web app with password length of 9:
+### Testing the web app with password length of 9:
 
 ![Entering 9 as length of password](./images/confirming-password-length.png)
 
@@ -68,26 +68,24 @@ Result as Expected:-
 
 ![Your password length will be of 9 characters](./images/confirming-password-length.png)
 
-3.Testing the criteria prompts and what the output includes after choosing to include all the criteria
+### Testing the criteria prompts and what the output includes after choosing to include all the criteria
 
-3.1 Confirming Numbers in my expected password
+- Confirming Numbers in my expected password
 
 ![Confirming to include numbers](./images/including-numbers-in-password.png)
 
-3.2 Confirming Special Characters in my expected password
+- Confirming Special Characters in my expected password
 
 ![Confirming to include special characters](./images/confirming-special-characters.png)
 
-3.3 Confirming Lower case characters in my expected password
+- Confirming Lower case characters in my expected password
 
 ![Confirming to include lower case letters](./images/confirming-lower-case.png)
 
-3.4 Confirming Upper Case letters in my expected password
+- Confirming Upper Case letters in my expected password
 
 ![Confirming to include upper case letters](./images/confirming-upper-case.png)
 
-3.5 Expected Result:
+- Expected Result:
 
 ![Confirming that output includes all four criteria](./images/output-includes-all-criteria.png)
-
-
