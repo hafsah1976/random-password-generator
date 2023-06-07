@@ -10,17 +10,19 @@ var lowerCase="abcdefghijklmnopqrstuvwxyz";//lower case alphabets string
 var lowCaseArray = lowerCase.split("");
 var upperCase="ABCDEFGHIJKLMNOPQRSTUVWXYZ";//upper case alphabets string
 var upperCaseArray = upperCase.split("");
-
-//variables to hold the password characters together
-var tempPassword=[];
-var generatedPassword="";
+  
+  //variables to hold the password characters together
+  // var tempPassword=[];
+  // var generatedPassword="";
 
 //getting the user to start the series of prompt
 
 
 //main function
 function generatePassword(){
-   
+ 
+  var tempPassword=[];
+  var generatedPassword="";
   //this variable will hold the value input by the user
   var totalLength = prompt("What would be the length of the password you need?/nYour password should be at least 8 characters long and should not exceed 128 characters.")
   //asking user the length of password
@@ -69,7 +71,7 @@ function writePassword() {
  var password = generatePassword();
  var passwordText = document.querySelector("#password");
 passwordText.value = password;
-document.getElementById("password").innerHTML = generatedPassword;
+//document.getElementById("password").innerHTML = generatedPassword;
 }
 
 // Add event listener to generate button
